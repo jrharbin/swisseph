@@ -1,0 +1,6 @@
+description = "Bindings for the Swiss Ephemeris astro library"
+requires    = "ctypes,ctypes.foreign,rendertable"
+version     = "0.11"
+
+archive(byte)   = "swe.cma"
+archive(native) = "swe.cmxa"
